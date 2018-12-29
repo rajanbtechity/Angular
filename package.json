@@ -1,0 +1,24 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DLearn Angular",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "lite":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajanbtechity/Angular.git"
+  },
+  "author": "Rajan Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajanbtechity/Angular/issues"
+  },
+  "homepage": "https://github.com/rajanbtechity/Angular#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
