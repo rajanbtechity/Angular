@@ -1,0 +1,18 @@
+1. In the con fusion project, when no dish is selected, footer is right below the dish list. But when a dish is selected 
+footer shifts down and  we have dish details being displayed  between dish list and footer. Try to find what all parameters
+cotribute to achieve this re adjustment of the screen.
+
+2.
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule,
+    RouterModule.forRoot(routes)
+  ],
+  exports: [ RouterModule ]
+})
+
+Notice the export in app-routing.module. This exports makes RouterModule available to AppModule. 
+If we don't add this export in app-routing.module then we need to explicitly import RouterModule in app.module.ts. 
+
+import { RouterModule } from '@angular/router';
